@@ -1,0 +1,4 @@
+capture:
+  build:
+    clean-command: gradle build compileDebugSources --no-daemon
+    build-command: gradle clean
